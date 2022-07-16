@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="建造者模式\" />
+    <Folder Include="组合模式\" />
+  </ItemGroup>
+
 </Project>

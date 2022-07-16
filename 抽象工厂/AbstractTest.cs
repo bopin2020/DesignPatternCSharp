@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 
 namespace DesignPattern.抽象工厂
 {
-    internal class AbstractTest
+    internal class AbstractTest : ITest
     {
-        public static void execute()
+        public void execute()
         {
             // "ChineseHackFactory","UKRaineHackFactory"
             IHackFactory hackFactory = new ChineseHackFactory();
